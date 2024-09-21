@@ -1,0 +1,39 @@
+{
+  "packages": [
+    {
+      "name": "spartan",
+      "maintainer": "Modern Robotics Inc.",
+      "websiteURL": "http://www.modernroboticsinc.com",
+      "email": "support@modernroboticsinc.com",
+      "help": {
+        "online": "http://www.modernroboticsinc.com/spartan"
+      },
+      "platforms": [
+        {
+          "name": "Modern Robotics AVR Boards",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Spartan",
+          "help": {
+            "online": "http://www.modernroboticsinc.com/spartan"
+          },
+          "url": "https://mrpribula.github.io/modernrobotics-avr.zip",
+          "archiveFileName": "modernrobotics-avr.zip",
+          "checksum": "SHA-256:2999a05370ee91cf590409e08b3537c5b00082fc93d5e1749ac8ff5e3b237baf",
+          "size": "188669",
+          "boards": [
+            {"name": "Core Spartan Controller"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
